@@ -52,7 +52,7 @@ JSON是键值对的序列化集合，值的取值可以是数值、字符串、�
 
 ### JSON属性和方法
 
-**JSON.parse(value [,reviver])** 
+**JSON.parse(value [,reviver])**            
 用来解析JSON字符串，构造由字符串描述的JavaScript值或对象。提供可选的reviver函数用以在返回之前对所得到的对象执行变换(操作)。
 ```js
 var str = '{"name":"car","price":1000000}';
@@ -69,7 +69,7 @@ JSON.parse(str, function(k, v){
 // 输出：{name: "newcar", price: 1000000}
 ```
 
-**JSON.stringify(value[, replacer [, space]])**
+**JSON.stringify(value[, replacer [, space]])**         
 将一个JavaScript值(对象或者数组)转换为一个 JSON字符串，如果指定了replacer是一个函数，则可以替换值，或者如果指定了replacer是一个数组，可选的仅包括指定的属性,space指定缩进时的空白字符串用于美化输出。
 
 ```js
