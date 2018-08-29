@@ -11,18 +11,13 @@ XML是可扩展标记语言，类似XHTML的标签树结构。
 
 ``` js
 <?xml version="1.0" encoding="UTF-8" ?>
-<dates>
-    <date>
-        <id>1</id>
-        <name>name</name>
-        <abb>car</abb>
-    </date>
-    <date>
-        <id>2</id>
-        <name>color</name>
-        <abb>red</abb>
-    </date>
-</dates>
+<menu id="file" value="File">
+    <popup>
+        <menuitem value="New" onclick="CreateNewDoc()" />
+        <menuitem value="Open" onclick="OpenDoc()" />
+        <menuitem value="Close" onclick="CloseDoc()" />
+    </popup>
+</menu>
 ```
 YAML是一种直观的能够被电脑识别的数据序列化格式。
 书写简单，解析方便，适合做序列化，适用于脚本语言使用。
