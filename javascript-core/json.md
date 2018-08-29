@@ -44,7 +44,13 @@ dates:
 JSON（Javascript Object Notation），是一种轻量级的数据交换格式。
 它是基于 JavaScript Programming Language , Standard ECMA-262 3rd Edition - December 1999 的一个子集。
 但它完全独立于程序语言，又因其类C语言的数据表达和结构，所以运用广泛。
-JSON是键值对的序列化集合，值的取值可以是数值、字符串、布尔、null、数值及对象等，但其格式有以下几点需要注意：
+JSON是键值对的序列化集合，值的取值可以是：
+
+* 标量（scalar）：如数值、字符串、布尔、null等。
+* 序列（sequence）：如数组。
+* 映射（mapping）：也成为散列、键值对，对应js里面的Object对象。  
+
+但其格式有以下几点需要注意：
 
 * 属性名称为字符串，最后一个属性值后不能有逗号。
 * 无论是key还是value，只要是字符串必须用双引号括起来，否则会报错。
