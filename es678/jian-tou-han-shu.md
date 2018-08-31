@@ -123,7 +123,7 @@ var func = function func() {
 func(1);
 ```
 
-用rest数组来代替arguments：
+用扩展运算符来代替arguments：
 
 ```
 // arguments变量的写法
