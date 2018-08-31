@@ -131,7 +131,7 @@ function sortNumbers() {
   return Array.prototype.slice.call(arguments).sort();
 }
 
-// rest参数的写法
+// 扩展云算符的写法
 const sortNumbers = (...numbers) => numbers.sort();
 ```
 
