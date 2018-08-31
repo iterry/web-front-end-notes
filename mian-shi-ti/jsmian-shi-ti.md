@@ -24,6 +24,7 @@ arr3 = Array.of(...arr1, ...arr2)
 ```
 
 #### 2、实现一个函数，满足如下结果：
+参考：[JS类型转换的思考](http://www.cnblogs.com/coco1s/p/6509141.html)
 
 ```
 add(1) //1
