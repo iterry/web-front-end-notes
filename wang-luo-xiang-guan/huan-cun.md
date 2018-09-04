@@ -1,5 +1,3 @@
-本篇笔记介绍请求缓存，涉及到：cookie、cache-control、expires、Etags、Last-modify等。
-
 缓存（Cache），指的是可以快速访问的副本资源。在学习缓存之前，先思考几个问题：
 
 * 缓存有哪些种类，能解决什么问题？
