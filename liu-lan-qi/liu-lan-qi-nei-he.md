@@ -42,9 +42,9 @@ Opera在2013年V12.16之前使用的是Opera Software公司开发的Presto引擎
 国内市场乱象横生，但Chrome和IE/Edge也占据了超过50%的市场占有率，另外，国内浏览器厂商（QQ、2345、搜狗、猎豹、UC、360）也有一定的市场占有率。
 总结国内厂商内核来看，一般为三类：
 
-一、使用的Trident单核，如：2345、世界之窗；
-二、使用Trident+Webkit/Blink双核，如：UC、猎豹、360、百度；
-三、使用Webkit/Blink单核，如：搜狗、遨游。
+一、使用的Trident单核，如：2345、世界之窗。     
+二、使用Trident+Webkit/Blink双核，如：UC、猎豹、360、百度。        
+三、使用Webkit/Blink单核，如：搜狗、遨游。   
 
 总之，国内并没有优秀的自研内核，通常都是使用的Webkit/Blink 或者 Trident 内核，除此之外的差异通常体现在体验扩展和各自的商业诉求上。
 
