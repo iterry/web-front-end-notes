@@ -23,13 +23,17 @@
 **IE/Edge：**
 微软的IE浏览器浏览器更新至IE10后，伴随着WIN10系统的上市，迁移到了全新的浏览器Edge。除了JS引擎沿用之前IE9就开始使用的查克拉\(Chakra\)，渲染引擎使用了新的内核EdgeHTML（本质上不是对Trident的完全推翻重建，而是在Trident基础上删除了过时的旧技术支持的代码，扩展和优化了对新的技术的支持，所以被看做是全新的内核）。
 
-**Safari： **Safari自2003年面世，就一直是苹果公司的产品自带的浏览器，它使用的是苹果研发和开源的Webkit引擎。Webkit引擎包含WebCore排版引擎及JavaScriptCore解析引擎，均是从KDE的KHTML及KJS引擎衍生而来。Webkit2发布于2010年，它实现了元件的抽象画，提高了元件的重复利用效率，提供了更加干净的网页渲染和更高效的渲染效率。另外，Webkit也是苹果Mac OS X系统引擎框架版本的名称，主要用于Safari、Dashboard、Mail。
+**Safari：**
+Safari自2003年面世，就一直是苹果公司的产品自带的浏览器，它使用的是苹果研发和开源的Webkit引擎。Webkit引擎包含WebCore排版引擎及JavaScriptCore解析引擎，均是从KDE的KHTML及KJS引擎衍生而来。Webkit2发布于2010年，它实现了元件的抽象画，提高了元件的重复利用效率，提供了更加干净的网页渲染和更高效的渲染效率。另外，Webkit也是苹果Mac OS X系统引擎框架版本的名称，主要用于Safari、Dashboard、Mail。
 
-**Chrome： **提到Chrome浏览器，一般人会认为使用的Webkit内核，这种说法不完全准确。Chrome发布于2008年，使用的渲染内核是Chromium，它是fork自Webkit，但把Webkit梳理得更有条理可读性更高，效率提升明显。2013年，由于Webkit2和Chromium在沙箱设计上的冲突，谷歌联手Opera自研和发布了Blink引擎，逐步脱离了Webkit的影响。所以，可以这么认为：Chromium扩展自Webkit止于Webkit2，其后Chrome切换到了Blink引擎。另外，Chrome的JS引擎使用的V8引擎，应该算是最著名和优秀的开源JS引擎，大名鼎鼎的Node.js就是选用V8作为底层架构。
+**Chrome：**
+提到Chrome浏览器，一般人会认为使用的Webkit内核，这种说法不完全准确。Chrome发布于2008年，使用的渲染内核是Chromium，它是fork自Webkit，但把Webkit梳理得更有条理可读性更高，效率提升明显。2013年，由于Webkit2和Chromium在沙箱设计上的冲突，谷歌联手Opera自研和发布了Blink引擎，逐步脱离了Webkit的影响。所以，可以这么认为：Chromium扩展自Webkit止于Webkit2，其后Chrome切换到了Blink引擎。另外，Chrome的JS引擎使用的V8引擎，应该算是最著名和优秀的开源JS引擎，大名鼎鼎的Node.js就是选用V8作为底层架构。
 
-**Firefox： **火狐的内核Gecko也是开源引擎，任何程序员都能为其提供扩展和建议。火狐的JS引擎历经SpiderMonkey、TraceMonkey到现在的JaegerMonkey。其中JaegerMonkey部分技术借鉴了V8、JSCore和Webkit，算是集思广益。
+**Firefox：**
+火狐的内核Gecko也是开源引擎，任何程序员都能为其提供扩展和建议。火狐的JS引擎历经SpiderMonkey、TraceMonkey到现在的JaegerMonkey。其中JaegerMonkey部分技术借鉴了V8、JSCore和Webkit，算是集思广益。
 
-**Opera： **Opera在2013年V12.16之前使用的是Opera Software公司开发的Presto引擎，之后连同谷歌研发和选择Blink作为Opera浏览器的排版内核。
+**Opera：**
+Opera在2013年V12.16之前使用的是Opera Software公司开发的Presto引擎，之后连同谷歌研发和选择Blink作为Opera浏览器的排版内核。
 
 ### 二、国内的浏览器内核现状
 
