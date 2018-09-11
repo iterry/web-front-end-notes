@@ -42,5 +42,11 @@ flex　　是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 au
 align-self　　设置单个项目的对齐方式，继承父元素的align-items，可覆盖align-items属性，如果没有父元素，则等同于stretch。
 ```
 
+注意：
+
+1. flex-grow的默认值为0，flex-shrink默认值为1；
+2. 为子项目设置内外边距有效；
+3. 子项目在默认宽度之和大于容器宽度时才会收缩，收缩大小依据flex-shrink的值。当任一子项目的收缩值大于本身宽度，该项宽度为0（不计内边距），剔除该项的比例，重新计算其他子项的收缩值。
+
 
 
