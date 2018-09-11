@@ -9,6 +9,7 @@
 * [Introduction](README.md)
 * [CSS2.1/3/4](css2134.md)
   * [动画](css2134/dong-hua.md)
+  * [Flexbox](css2134/flexbox.md) 
   * [CSS预处理](css2134/cssyu-chu-li.md)
   * [PostCSS](css2134/postcss.md)
   * [CSS模块化](css2134/cssmo-kuai-hua.md)
