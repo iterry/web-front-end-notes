@@ -50,7 +50,10 @@ Opera在2013年V12.16之前使用的是Opera Software公司开发的Presto引擎
 
 ### 三、移动浏览器内核
 
-通常指的是移动设备系统自带的浏览器内核。IOS设备内置Safari使用的Webkit，同苹果PC一致；Andriod4.4之前版本系统浏览器内核是Webkit，之后切换到Chromium/Blink；WinPhone8及以上使用的是Trident。
+通常指的是移动设备系统自带的浏览器内核。
+- IOS设备内置Safari使用的Webkit，同苹果PC一致；
+- Andriod4.4之前版本系统浏览器内核是Webkit，之后切换到Chromium/Blink；
+- WinPhone8及以上使用的是Trident。
 
 值得注意的是，由于系统环境条件及功能差异，不同浏览器内核在PC和移动端都有特定的优化或扩展定制，所以在具体的使用中就存在差异。
 
