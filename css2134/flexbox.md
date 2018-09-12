@@ -23,23 +23,23 @@ Flexbox（Flexible box）直译：灵活的盒子，说它灵活，除了能实�
 
 ```js
 display:flex    设置容器为flexbox容器
-flex-direction　　容器内项目的排列方向(默认横向排列)　　
-flex-wrap　　容器内项目换行方式
-flex-flow　　以上两个属性的简写方式
-justify-content　　项目在主轴上的对齐方式
-align-items　　项目在交叉轴上如何对齐
-align-content　　多行/多列排列的flex项目在交叉项上的对齐方式
+flex-direction:row row-reverse column column-reverse　　容器内项目的排列方向(默认横向排列)　　
+flex-wrap:nowrap wrap wrap-reverse　　容器内项目换行方式
+flex-flow:flex-direction flex-wrap　　以上两个属性的简写方式
+justify-content:normal start flex-start flex-end center left right space-between space-around space-evenly 项目在主轴上的对齐方式
+align-items: normal flex-start flex-end stretch center baseline start end left right　　项目在交叉轴上如何对齐
+align-content:normal flex-start flex-end center baseline space-around space-between space-evenly　多行/多列排列的flex项目在交叉项上的对齐方式
 ```
 
 作用在Flex项目上的属性：
 
 ```js
-order　　项目的排列顺序。数值越小，排列越靠前，默认为0，可以为负值。
-flex-grow　　项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
-flex-shrink　　项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
-flex-basis　　在分配多余空间之前，项目占据的主轴空间（main size）。它的默认值为auto，即项目的本来大小。
-flex　　是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。
-align-self　　设置单个项目的对齐方式，继承父元素的align-items，可覆盖align-items属性，如果没有父元素，则等同于stretch。
+order:n　　项目的排列顺序。数值越小，排列越靠前，默认为0，可以为负值。
+flex-grow:n　　项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
+flex-shrink:n　　项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
+flex-basis:auto px %　　在分配多余空间之前，项目占据的主轴空间（main size）。它的默认值为auto，即项目的本来大小。
+flex:flex-grow flex-shrink flex-basis  默认值为0 1 auto。后两个属性可选。
+align-self:auto 同align-items　　设置单个项目的对齐方式，继承父元素的align-items，可覆盖align-items属性，如果没有父元素，则等同于stretch。
 ```
 
 注意：
