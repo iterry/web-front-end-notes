@@ -72,7 +72,7 @@ CSS是声明式语法块集合，CSS Parser使用Flex和Bison解析生成器从C
 
 如果样式文件是以JS插入进页面，可以为外链添加defer标示，是脚本的加载解析使用另外的线程，从而不阻塞文档的加载和解析。
 
-一般情况，外部CSS文件加载不会阻塞DOM Tree解析，但会阻塞DOM Tree渲染（白屏/Chrome）。
+一般情况，外部CSS文件加载不会阻塞DOM Tree解析，但会阻塞DOM Tree渲染（白屏/Chrome）。     
 如果css加载太慢，等候太久，Dom也可能先解析渲染，待css加载完毕再重新渲染（闪烁/FireFox）。
 
 #### 三、渲染树Render Tree
