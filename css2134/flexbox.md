@@ -26,6 +26,7 @@ display:flex    设置容器为flexbox容器
 flex-direction:row row-reverse column column-reverse　　容器内项目的排列方向(默认横向排列)　　
 flex-wrap:nowrap wrap wrap-reverse　　容器内项目换行方式
 flex-flow:flex-direction flex-wrap　　以上两个属性的简写方式
+
 justify-content:normal start flex-start flex-end center left right space-between space-around space-evenly 项目在主轴上的对齐方式
 align-items: normal flex-start flex-end stretch center baseline start end left right　　项目在交叉轴上如何对齐
 align-content:normal flex-start flex-end center baseline space-around space-between space-evenly　多行/多列排列的flex项目在交叉项上的对齐方式
@@ -35,10 +36,12 @@ align-content:normal flex-start flex-end center baseline space-around space-betw
 
 ```js
 order:n　　项目的排列顺序。数值越小，排列越靠前，默认为0，可以为负值。
+
 flex-grow:n　　项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
 flex-shrink:n　　项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
 flex-basis:auto px %　　在分配多余空间之前，项目占据的主轴空间（main size）。它的默认值为auto，即项目的本来大小。
 flex:flex-grow flex-shrink flex-basis  默认值为0 1 auto。后两个属性可选。
+
 align-self:auto 同align-items　　设置单个项目的对齐方式，继承父元素的align-items，可覆盖align-items属性，如果没有父元素，则等同于stretch。
 ```
 
@@ -47,6 +50,9 @@ align-self:auto 同align-items　　设置单个项目的对齐方式，继承�
 1. flex-grow的默认值为0，flex-shrink默认值为1；
 2. 为子项目设置内外边距有效；
 3. 子项目在默认宽度之和大于容器宽度时才会收缩，收缩大小依据flex-shrink的值。当任一子项目的收缩值大于本身宽度，该项宽度为0（不计内边距），剔除该项的比例，重新计算其他子项的收缩值。
+4. 对space-between、space-around、space-evenly的显示比较如下：
+
+![](/assets/justify-content.png)
 
 
 
