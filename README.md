@@ -33,8 +33,10 @@
   * [Module](es678/module.md)
 * [Javascript Core](javascript-core.md)
   * [重要概念](javascript-core/zhong-yao-gai-nian.md)
+  * [运算符](javascript-core/yun-suan-fu.md)
   * [对象](javascript-core/dui-xiang.md)
   * 原型/原型链
+  * [内存管理](javascript-core/nei-cun-guan-li.md)
   * 闭包
   * 递归
   * 正则
