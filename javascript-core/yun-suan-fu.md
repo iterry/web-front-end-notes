@@ -55,7 +55,9 @@ console.log(b.x);// [object Object]
 
 5、**NaN和包括自身在内的任意类型值比较，返回false；**
 
-6、**{}**除了和同享引用指针的同类型全等外，**和包括自身在内的其他任意类型都不相等**；
+6、{} 除了和同享引用指针的同类型全等外，**和包括自身在内的其他任意类型都不相等**；
+
+7、Symbol相互之间，以及和其他任意类型比较，返回false；
 
 **以下为示例：**
 
@@ -85,6 +87,9 @@ a === d // true;
 NaN == NaN // false
 NaN == 0  // false
 {} == 0 // false  Number({}) == NaN
+
+Symbol('1') == Symbol('1')  // false
+!Symbol == 1  // true
 ```
 
 **一般建议：**
