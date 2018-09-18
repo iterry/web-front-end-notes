@@ -42,6 +42,7 @@
   * 正则
   * [JSON](javascript-core/json.md)
   * [Ajax](javascript-core/ajax.md)
+  * [动画](javascript-core/dong-hua.md)
 * [Nodejs](nodejs.md)
   * [编码规范](nodejs/bian-ma-gui-fan.md)
   * Session
