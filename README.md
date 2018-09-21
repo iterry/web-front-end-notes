@@ -38,6 +38,7 @@
   * 原型/原型链
   * [内存管理](javascript-core/nei-cun-guan-li.md)
   * 闭包
+  * [事件循环](javascript-core/shi-jian-xun-huan.md)
   * 递归
   * 正则
   * [JSON](javascript-core/json.md)
