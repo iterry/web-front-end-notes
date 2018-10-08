@@ -57,3 +57,7 @@ process.nextTick语句在Node中也使用的很广泛，同一般的回调不同
 
 参考：
 1、[理解Node.js实践循环 ](https://blog.hainest.com/understanding-the-nodeJS-event-loop/)
+2、[并发和事件模型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
+3、[Javascript中的异步](http://blog.51cto.com/cnn237111/1556987)
+4、[详解JavaScript中的Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
+5、[JS事件循环机制（event loop）之宏任务/微任务](https://juejin.im/post/5b498d245188251b193d4059)
