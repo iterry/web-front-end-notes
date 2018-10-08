@@ -55,3 +55,5 @@ process.nextTick语句在Node中也使用的很广泛，同一般的回调不同
 
 因此，以上非常规的回调执行顺序是：nextTick先执行，setImmediate 和 setTimeout 后执行但两者执行先后不定。
 
+参考：
+1、[理解Node.js实践循环 ](https://blog.hainest.com/understanding-the-nodeJS-event-loop/)
