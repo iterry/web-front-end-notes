@@ -84,7 +84,7 @@ setTimeout(function() {
     }).then(function() {
         console.log('5')
     })
-})
+},0)
 process.nextTick(function() {
     console.log('6');
 })
@@ -106,7 +106,7 @@ setTimeout(function() {
     }).then(function() {
         console.log('12')
     })
-})
+},0)
 
 // node环境下输出：1、7、6、8、2、4、9、11、3、10、5、12
 ```
