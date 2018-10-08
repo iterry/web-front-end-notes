@@ -69,6 +69,46 @@ process.nextTick语句在Node中也使用的很广泛，同一般的回调不同
 
 因此，以上非常规的回调执行顺序是：nextTick先执行，setImmediate 和 setTimeout 后执行但两者执行先后不定。
 
+**看看一下代码执行结果是什么？**
+```
+console.log('1');
+
+setTimeout(function() {
+    console.log('2');
+    process.nextTick(function() {
+        console.log('3');
+    })
+    new Promise(function(resolve) {
+        console.log('4');
+        resolve();
+    }).then(function() {
+        console.log('5')
+    })
+})
+process.nextTick(function() {
+    console.log('6');
+})
+new Promise(function(resolve) {
+    console.log('7');
+    resolve();
+}).then(function() {
+    console.log('8')
+})
+
+setTimeout(function() {
+    console.log('9');
+    process.nextTick(function() {
+        console.log('10');
+    })
+    new Promise(function(resolve) {
+        console.log('11');
+        resolve();
+    }).then(function() {
+        console.log('12')
+    })
+})
+```
+
 **参考：**   
 1、[理解Node.js实践循环](https://blog.hainest.com/understanding-the-nodeJS-event-loop/)   
 2、[并发和事件模型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)   
