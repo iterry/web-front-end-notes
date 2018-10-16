@@ -20,6 +20,7 @@
   * [本地存储](html5/ben-di-huan-cun.md)
   * [Canvas](html5/canvas.md)
   * [SVG](html5/svg.md)
+  * [表单](html5/biao-dan.md)
 * [ES6/7/8](es678.md)
   * [声明/赋值](es678/sheng-660e-fu-zhi.md)
   * [箭头函数](es678/jian-tou-han-shu.md)
