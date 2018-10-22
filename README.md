@@ -107,6 +107,8 @@
 * [库/框架](5e93-kuang-jia.md)
   * [Electron](5e93-kuang-jia/electron.md)
   * Vuejs
+  * Vuex
+  * axios
 * [中间语言](zhong-jian-yu-yan.md)
   * [TypeScript](zhong-jian-yu-yan/typescript.md)
 * [博客](bo-ke.md)
