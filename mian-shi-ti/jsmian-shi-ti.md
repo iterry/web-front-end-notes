@@ -114,3 +114,22 @@ parseFloat((0.1+0.2).toFixed(10))
 
 由此看出，后者比前者的编码范围更大。所以，需要对URL中包含query参数进行字符编码必须使用encodeURLComponent，如微信签名；对URL编码且还需要访问，直接使用encodeURL即可。
 
+#### 7、如何检查一个数字是否为整数？
+
+最简单的方法是：将这个数对1取模，看看是否有余数。以及其他方法：
+
+```js
+a = 5, b = 5.1;
+a % 1    // 0
+b % 1    // 0.0999999999
+
+a === parseInt(a);  // true
+b === parseInt(b);  // true
+
+a.toString().indexOf('.') > -1;    // false
+b.toString().indexOf('.') > -1;    // true
+
+```
+
+
+
